@@ -3,17 +3,18 @@
     <head>
         <meta charset="utf-8">
         <title> SIGN UP</title>
+        <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body id = "signup">
         <h3>
-            SIGN UP
+            <span>SIGN UP</span>
         </h3>
         <form action="" method="GET">
             <label for="username"></label>
             <input required name="username" placeholder="Username" type="text" id="username"><br>
             <label for="password"></label>
             <input required name="password" placeholder="Password" type="password" id="password"><br><br>
-            <input required name="city" placeholder="City which you live in" list="sehirler"><br><br>
+            <input required name="city" placeholder="City which you live in" list="sehirler" id="city"><br><br>
             <label>
                 <input type="radio" name="gender"> Male
             </label>
@@ -21,7 +22,7 @@
                 <input type="radio" name="gender"> Female
             </label>
             <br><br>
-            <input type="submit" formaction="weatherhomepage.html">
+            <input type="submit" formaction="weatherhomepage.html" id="submit">
             <datalist id="sehirler">
                 <option value="Adana">
                 <option value="Adıyaman">

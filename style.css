@@ -1,0 +1,42 @@
+body{
+    background-color: gray;
+}
+button{
+    background-color: lightgrey;
+    font-size: medium;
+}
+head{
+    font-size: large;
+}
+body{
+    font-size: large;
+}
+#password{
+    background-color: rgb(51, 55, 59);
+    font-size: 100%;
+}
+#username{
+    background-color: rgb(51, 55, 59);
+    font-size: 100%;
+}
+#city{
+    background-color: rgb(51, 55, 59);
+    font-size: 100%;
+}
+#login{
+    padding-left: 600px;
+    padding-top: 150px;
+}
+#signup{
+    padding-left: 600px;
+    padding-top: 150px;
+}
+#homepage{
+    padding-left: 1350px;
+}
+#button2{
+    font-size: 78%;
+}
+#button1{
+    font-size: 63%;
+}
